@@ -23,3 +23,19 @@
 //   console.log(str[i]);
 // }
 
+// let str1 = "I'm a string";
+// let str2 = "I'm a\0string\"";
+// console.log(str2);
+
+// alert("1-ders \n2-Kayit\n 3-pre-class");
+// alert(`1-ders
+// 2-Kayit
+// 3-pre-class`);
+
+let str1 = "Clarusway";
+let str2 = str1.slice(-3);
+console.log(str1);
+console.log(str2);
+console.log(str1.slice(-9, -3));
+
+const str = "Orange";
