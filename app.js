@@ -167,12 +167,24 @@
 // console.log(str.trimStart());
 // console.log(str.trimEnd());
 
-let str = "clarusway@Clarusway.com is our e-mail address";
+// let str = "clarusway@Clarusway.com is our e-mail address";
 
-console.log(str.startsWith("clarusway"));
-console.log(str.startsWith("Clarusway"));
-console.log(str.startsWith("Clarusway", 10));
+// console.log(str.startsWith("clarusway"));
+// console.log(str.startsWith("Clarusway"));
+// console.log(str.startsWith("Clarusway", 10));
 
-let email = "clarusway@Clarusway.com";
+// let email = "clarusway@Clarusway.com";
 
-console.log(email.endsWith("com"));
+// console.log(email.endsWith("com"));
+
+let str = "         Clarusway Full Stack";
+
+let str1 = str.trim();
+
+let str2 = str1.slice(0, 9);
+
+let str3 = str2.toUpperCase();
+
+console.log(str3);
+
+console.log(str.trim().slice(0, 9).toUpperCase());
