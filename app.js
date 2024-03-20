@@ -127,16 +127,29 @@
 
 // console.log(str1.search(arama));
 
-let str = "Mr Brown has a brown house and a brown car";
+// let str = "Mr Brown has a brown house and a brown car";
 
-let newStr = str.replace("brown", "red");
-let newStr2 = str.replace(/brown/i, "red");
-let newStr3 = str.replace(/brown/gi, "red");
-let newStr4 = str.replace(/brown/g, "red");
+// let newStr = str.replace("brown", "red");
+// let newStr2 = str.replace(/brown/i, "red");
+// let newStr3 = str.replace(/brown/gi, "red");
+// let newStr4 = str.replace(/brown/g, "red");
 
-console.log(newStr);
-console.log(newStr2);
-console.log(newStr3);
-console.log(newStr4);
+// console.log(newStr);
+// console.log(newStr2);
+// console.log(newStr3);
+// console.log(newStr4);
 
-let str = "Mr Brown has a brown house and a brown car";
+// let str = "Mr Brown has a brown house and a brown car";
+// console.log(str.replaceAll("Brown", "red"));
+
+let str = "Welcome to: Full Stack";
+console.log(str.split());
+console.log(str.split(" "));
+console.log(str.split(":"));
+console.log(str.split("Full"));
+console.log(str.split("full"));
+
+let arr = str.split(" ");
+
+console.log(arr);
+console.log(str);
