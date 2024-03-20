@@ -112,17 +112,31 @@
 
 // console.log(str.indexOf("o"));
 
-let str = "You do not KNOW what you do not know until you know.";
+// let str = "You do not KNOW what you do not know until you know.";
 
-console.log(str.search("know"));
+// console.log(str.search("know"));
 
-console.log(str.search(/know/));
+// console.log(str.search(/know/));
 
-console.log(str.search(/know/i));
-console.log(str.search(/klow/i));
+// console.log(str.search(/know/i));
+// console.log(str.search(/klow/i));
 
-let str1 = "hello World";
-const arama = /[A-Z]/;
-const arama2 = /[a-z]/;
+// let str1 = "hello World";
+// const arama = /[A-Z]/;
+// const arama2 = /[a-z]/;
 
-console.log(str1.search(arama));
+// console.log(str1.search(arama));
+
+let str = "Mr Brown has a brown house and a brown car";
+
+let newStr = str.replace("brown", "red");
+let newStr2 = str.replace(/brown/i, "red");
+let newStr3 = str.replace(/brown/gi, "red");
+let newStr4 = str.replace(/brown/g, "red");
+
+console.log(newStr);
+console.log(newStr2);
+console.log(newStr3);
+console.log(newStr4);
+
+let str = "Mr Brown has a brown house and a brown car";
