@@ -66,11 +66,48 @@
 // console.log("Merhaba ".concat(isim));
 // console.log("Merhaba " + isim);
 
-let str1 = "Clarusway";
+// let str1 = "Clarusway";
 
-console.log(str1.includes("l"));
-console.log(str1.includes("l", 1));
-console.log(str1.includes("l", 2));
+// console.log(str1.includes("l"));
+// console.log(str1.includes("l", 1));
+// console.log(str1.includes("l", 2));
 
+// let str1 = "Clarusway";
 
-let str1 = "Clarusway";
+// console.log(str1.indexOf("a"));
+// console.log(str1.indexOf("a", 3));
+// console.log(str1.indexOf("l", 3));
+
+// let email = prompt(`Email adresini giriniz`);
+// console.log(email.includes("@"));
+
+// let email = prompt(`Email adresini giriniz`);
+
+// if (email.indexOf("@") === -1) {
+//   console.log("Invalid email");
+// } else {
+//   console.log("Valid email");
+// }
+
+// function findCount(source, search) {
+//   let count = 0;
+//   let position = source.indexOf(search);
+
+//   while (position !== -1) {
+//     count++;
+//     position = source.indexOf(search, ++position);
+//   }
+//   return count;
+// }
+
+// let str = "You do not know what you do not know until you know.";
+// console.log(findCount(str, "know"));
+
+let str = "Hello John, welcome to Clarusway";
+
+console.log(str.lastIndexOf("o"));
+
+console.log(str.lastIndexOf("o", 6));
+console.log(str.lastIndexOf("O", 6));
+
+console.log(str.indexOf("o"));
