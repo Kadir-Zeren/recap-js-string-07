@@ -49,19 +49,28 @@
 // let str2 = str.substring(0, 4);
 // console.log(str2);
 
+// let str1 = "Clarusway";
+// let str2 = "Full";
+// let str3 = "Stack";
+// const result = str1.concat(" ", str2, " ", str3);
+// console.log(result);
+// console.log(str3);
+
+// let greet = "Hello";
+
+// console.log(greet.concat(" World"));
+// console.log("Hello".concat(" World"));
+
+// let isim = prompt("Isminiz nedir?");
+
+// console.log("Merhaba ".concat(isim));
+// console.log("Merhaba " + isim);
+
 let str1 = "Clarusway";
-let str2 = "Full";
-let str3 = "Stack";
-const result = str1.concat(" ", str2, " ", str3);
-console.log(result);
-console.log(str3);
 
-let greet = "Hello";
+console.log(str1.includes("l"));
+console.log(str1.includes("l", 1));
+console.log(str1.includes("l", 2));
 
-console.log(greet.concat(" World"));
-console.log("Hello".concat(" World"));
 
-let isim = prompt("Isminiz nedir?");
-
-console.log("Merhaba ".concat(isim));
-console.log("Merhaba " + isim);
+let str1 = "Clarusway";
